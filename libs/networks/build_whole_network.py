@@ -3,7 +3,7 @@
 from __future__ import absolute_import, division, print_function
 
 import os
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 import tensorflow.contrib.slim as slim
 import numpy as np
 
