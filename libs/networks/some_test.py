@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-import tensorflow.contrib.slim as slim
+import tf_slim as slim
 import os
 
 os.environ["CUDA_VISIBLE_DEVICES"] = ""

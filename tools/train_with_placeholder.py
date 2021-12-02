@@ -5,7 +5,7 @@ from __future__ import print_function
 from __future__ import division
 
 import tensorflow as tf
-import tensorflow.contrib.slim as slim
+import tf_slim as slim
 import os, sys
 sys.path.append("../")
 sys.path.append("../data/lib_coco")

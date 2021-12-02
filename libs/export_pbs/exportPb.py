@@ -4,7 +4,7 @@ from __future__ import absolute_import, print_function, division
 
 import os, sys
 import tensorflow as tf
-import tensorflow.contrib.slim as slim
+import tf_slim as slim
 from tensorflow.python.tools import freeze_graph
 
 sys.path.append('../../')
