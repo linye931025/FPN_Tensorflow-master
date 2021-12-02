@@ -6,8 +6,8 @@ from __future__ import absolute_import, print_function, division
 import tensorflow.compat.v1 as tf
 import tf_slim as slim
 from libs.configs import cfgs
-from tf_slim import resnet_v1
-from tf_slim import resnet_utils
+from tf_slim.nets import resnet_v1
+from tf_slim.nets import resnet_utils
 from tf_slim.python.slim.nets.resnet_v1 import resnet_v1_block
 import tfplot as tfp
 
