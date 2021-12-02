@@ -3,8 +3,8 @@
 from __future__ import absolute_import, division, print_function
 
 import os
-import tensorflow.compat.v1 as tf
-import tensorflow.contrib.slim as slim
+import tensorflow.compat.v1 as tf #import tensorflow as tf
+import tf_slim as slim  #import tensorflow.contrib.slim as slim
 import numpy as np
 
 from libs.networks import resnet
