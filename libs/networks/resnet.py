@@ -3,7 +3,7 @@
 from __future__ import absolute_import, print_function, division
 
 
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 import tf_slim as slim
 from libs.configs import cfgs
 from tf_slim import resnet_v1
